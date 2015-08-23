@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title></title>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link href="css/sys.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script language="JavaScript"> 
+<!-- 
+function IsSelect(form){ 
+for (var i=0;i<form.elements.length;i++){ 
+var e = form.elements[i]; 
+   if (e.Name != 'allSelect'&&e.disabled==false){ 
+   e.checked = form.allSelect.checked; 
+   } 
+     } 
+} 
+--> 
+</script> 
+</head>
+
+<body>
+<div id="top_one">
+	<div id="top_two">
+		<div id="top_three">
+			<p class="top_p">欢迎光临2future网站.您好,
+								<a href="../main/login.php" style="text-decoration:none;display:inline; color:#6A0000;">[登录</a> | 
+				<a href="../main/register.php" style="text-decoration:none;display:inline; color:#6A0000;">免费注册]</a> 			
+					
+			</p>
+			<div id="top_geduan" style="margin:0; padding:0;">
+				<ul id="top_ul">
+					<li id="top_li"><a href="index.php" style="color:#404040;text-decoration:none;">课程报名</a></li>
+					<li style="clear:none !important;display:block;float:left;height:21px;padding:3px 0 0 6px;">|</li>
+					<li id="top_li"><a href="portal.php" style="color:#404040;text-decoration:none;">学生账户</a></li>
+					<li style="clear:none !important;display:block;float:left;height:21px;padding:3px 0 0 6px;">|</li>
+					<li id="top_li2"><a href="../bbs/" style="color:#404040;text-decoration:none;">问题论坛</a></li>
+					<li style="clear:none !important;display:block;float:left;height:21px;padding:3px 0 0 6px;">|</li>
+					<li id="top_li2"><a href="../library/" style="color:#404040;text-decoration:none;">图书馆</a></li>	
+					<li style="clear:none !important;display:block;float:left;height:21px;padding:3px 0 0 6px;">|</li>
+					<li id="top_li2"><a href="../main/aap.php" style="color:#404040;text-decoration:none;">大学补习主页</a></li>
+					<li style="clear:none !important;display:block;float:left;height:21px;padding:3px 0 0 6px;">|</li>
+					<li id="top_li2"><a href="../main/hr.php" style="color:#404040;text-decoration:none;">诚聘英才</a></li>
+					<li style="clear:none !important;display:block;float:left;height:21px;padding:3px 0 0 6px;">|</li>
+					<li id="top_li2"><a href="../ielts/" style="color:#404040;text-decoration:none;">未来雅思</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div style="clear:both;"></div><div id="wrap">
+ <div id="header">
+  <div id="logo"><img src="images/logo.gif" /></div>
+  <div id="nav"></div>
+ </div>
+ <div id="navlist"><img src="images/block_h2.png" width="950" height="42" /></div>
+ <div id="content">
+  <div id="left">
+   <!-- 老师管理的位置，管理通告，管理下载课件 -->   
+<div id="left_top_black">用户管理</div>
+<div id="left_bottom_black">
+		<div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; ">
+	<a href="manage_alluser2.php">网站注册用户列表</a>
+	</div>
+	<div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; ">
+	<a href="manage_alluser.php">课程注册用户列表</a>
+	</div>
+	<div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; ">
+	<a href="find_user.php">查找网站注册用户</a>
+	</div>
+	<div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; ">
+	<a href="manage_finduser.php">查找报名用户</a>
+	</div>
+	<div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; ">
+	<a href="manage_complaint.php">用户投诉建议</a>
+	</div>
+</div>
+  
+
+   
+   <div id="left_top_black">课程与老师管理</div>
+   <div id="left_bottom_black">
+   <div style=" border: #9E8AA2 solid 1px; padding:2px; text-align:center;margin-bottom:5px; margin-top:5px;margin-right:5px; ">
+   <a href="manage_course03.php">报名情况</a>
+   </div>
+   <div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; ">
+	<a href="manage_teacher03.php">老师的列表</a>
+	</div> 
+	<div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; ">
+	<a href="manage_subject12.php">添加老师权限</a>
+	</div> 
+
+   <div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; "><a href="manage_subject12.php">报名管理构架图<font color="#FF0000">(可编辑)</font></a>
+   
+  
+   
+   </div> 
+   <div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; ">
+	<a href="manage_teacher01.php">管理科目通告</a>
+	</div>
+   </div>
+   <div id="left_top_black">新闻管理</div>
+   <div id="left_bottom_black">
+   
+   <div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; "><a href="manage_newlist.php">AAP新闻列表</a></div>
+ 
+   
+   </div>
+<div id="left_top_black">微音基金</div>
+   <div id="left_bottom_black">
+   
+  
+   <div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; "><a href="manage_weiyin.php">申请列表</a></div>
+   
+   </div>
+
+
+
+
+
+
+ <!-- 
+    <div style="border:#666 solid 1px; padding:2px; text-align:center;margin-bottom:5px;margin-right:5px; "><a href="manage_subject11.php">架构图</a></div>
+ -->
+     </div>
+  <div id="middle3" >
+    
+   <div id="middle_top_blue">报名列表[<a href="manage_portal_user03.php">账户管理：manage_portal_user03.php</a>]</div>
+   <div id="middle_bottom_blue">
+    
+    <table width="100%" cellpadding="1" cellspacing="1" bgcolor="#dedede">
+	<form action="update_review_email.php" method="post" name="myForm" id="myForm"> 
+	<tr align="center">
+	<td></td>
+	<td>身份</td>
+	<td><strong>name</strong></td>
+	<td><strong>email</strong></td>
+	<td><strong>Telephone</strong></td>
+	<td><strong>报名科目</strong></td>
+	<td><strong>状态</strong></td>
+	<td><strong>报名时间</strong></td>
+	<td><strong>开通时间</strong></td>
+	<td><strong>到期时间</strong></td>
+	<td><strong>到期设置</strong></td>
+	<td><strong>其他操作</strong></td>
+	</tr>
+		<tr bgcolor="#ffffff" height="25px">
+	<td><input name="undate_id[]" type="checkbox" id="selectBox" value="17236" /></td>
+	<td>
+		<font color="#3333FF">会员</font>
+	</td>
+	<td>aarontest</td>
+	<td>collins.melbourne@gmail.com</td>
+	<td id="tel">8613855585327</td>
+	
+	<td>
+	SMS testing 	</td>
+	<td>
+	<font color='#CCCCCC'>未激活</font>	</td>
+	<td>2012-05-14</td>
+	<td>0000-00-00</td>
+	<td>0000-00-00</td>
+	<td><a href="manage_portal_time.php?userid=6280&id=17236&subjectid=517">设置时间</a></td>
+	
+	<td><a href="del_signup.php?id=17236&subjectid=517 ">删除</a></td>
+	</tr>
+	<tr bgcolor="#ffffff"><td></td><td colspan="11" align="left">备注：</td></tr>
+		<tr bgcolor="#ffffff" height="25px">
+	<td><input name="undate_id[]" type="checkbox" id="selectBox" value="17231" /></td>
+	<td>
+		<font color="#3333FF">会员</font>
+	</td>
+	<td>webnova</td>
+	<td>support@webnova.com.au</td>
+	<td id="tel">0430096918</td>
+	
+	<td>
+	SMS testing 	</td>
+	<td>
+	<font color='#CCCCCC'>未激活</font>	</td>
+	<td>2012-05-14</td>
+	<td>0000-00-00</td>
+	<td>0000-00-00</td>
+	<td><a href="manage_portal_time.php?userid=5680&id=17231&subjectid=517">设置时间</a></td>
+	
+	<td><a href="del_signup.php?id=17231&subjectid=517 ">删除</a></td>
+	</tr>
+	<tr bgcolor="#ffffff"><td></td><td colspan="11" align="left">备注：</td></tr>
+		<tr bgcolor="#ffffff" height="25px">
+	<td><input name="undate_id[]" type="checkbox" id="selectBox" value="17225" /></td>
+	<td>
+		<font color="#3333FF">会员</font>
+	</td>
+	<td>ivy liu</td>
+	<td>ivyliu12345@hotmail.com</td>
+	<td id="tel">0425319155</td>
+	
+	<td>
+	SMS testing 	</td>
+	<td>
+	<font color='#CCCCCC'>未激活</font>	</td>
+	<td>2012-05-14</td>
+	<td>0000-00-00</td>
+	<td>0000-00-00</td>
+	<td><a href="manage_portal_time.php?userid=3110&id=17225&subjectid=517">设置时间</a></td>
+	
+	<td><a href="del_signup.php?id=17225&subjectid=517 ">删除</a></td>
+	</tr>
+	<tr bgcolor="#ffffff"><td></td><td colspan="11" align="left">备注：</td></tr>
+		<tr bgcolor="#ffffff" height="25px">
+	<td><input name="undate_id[]" type="checkbox" id="selectBox" value="17224" /></td>
+	<td>
+		<font color="#3333FF">会员</font>
+	</td>
+	<td>EmilyHu</td>
+	<td>emilyh@2future.org</td>
+	<td id="tel">0434276021</td>
+	
+	<td>
+	SMS testing 	</td>
+	<td>
+	<font color='#CCCCCC'>未激活</font>	</td>
+	<td>2012-05-14</td>
+	<td>0000-00-00</td>
+	<td>0000-00-00</td>
+	<td><a href="manage_portal_time.php?userid=2464&id=17224&subjectid=517">设置时间</a></td>
+	
+	<td><a href="del_signup.php?id=17224&subjectid=517 ">删除</a></td>
+	</tr>
+	<tr bgcolor="#ffffff"><td></td><td colspan="11" align="left">备注：</td></tr>
+		<tr bgcolor="#ffffff" height="25px">
+	<td><input name="undate_id[]" type="checkbox" id="selectBox" value="17223" /></td>
+	<td>
+		<font color="#3333FF">会员</font>
+	</td>
+	<td>Tony</td>
+	<td>hainalan@hotmail.com</td>
+	<td id="tel">0433854880</td>
+	
+	<td>
+	SMS testing 	</td>
+	<td>
+	<font color='#CCCCCC'>未激活</font>	</td>
+	<td>2012-05-14</td>
+	<td>0000-00-00</td>
+	<td>0000-00-00</td>
+	<td><a href="manage_portal_time.php?userid=422&id=17223&subjectid=517">设置时间</a></td>
+	
+	<td><a href="del_signup.php?id=17223&subjectid=517 ">删除</a></td>
+	</tr>
+	<tr bgcolor="#ffffff"><td></td><td colspan="11" align="left">备注：</td></tr>
+		<tr height="30px"><td colspan="7" align="left"><input name="allSelect" type="checkbox" id="allSelect" value="" onClick="IsSelect(myForm)" />全选 <input type="submit" value="发送邮件" /><input type="button" onclick="javascript:sendMessage();" value="发送短信" /></td></tr>
+	<tr>
+	  <td colspan="10"><textarea name="msg" cols="95" rows="9"></textarea></td>
+	</tr>
+	</form>
+	</table>
+   </div>
+  
+ 
+ </div>
+ <hr />
+ <div id="footer">Copyright (c) <a href="#">2Future</a>. All rights reserved· W3C</div>
+</div>
+
+<script language="javascript">
+		function xianshi(){
+		alert('发送邮件通知他(她)！');
+		}
+				function formatMobile(phone){
+			if(phone.length==10&&phone.substr(0,1)==0){
+				phone="61"+phone.substr(1,9);
+			}			
+			return phone;
+		 }
+		function sendMessage(){
+			var phone="",phones="",text="",count=-1;
+			text=$("[name='msg']").val();
+			
+			$("[name='undate_id[]']").each(function(i){				
+				if($(this).attr("checked")=="checked"){		
+					phone=($(this).parent().parent().find("#tel")).html();	
+					
+					phone=formatMobile(phone);
+				
+						phones+=phone+",";	
+						count=i;
+				}
+			});
+			
+			if(count==-1){
+				alert("请选择要发送短信的学员.");
+				return false;
+			}
+			if(text==null||text==""){
+				alert("请输入要发送的短信内容.");
+				return false;
+			}
+			 $.ajax({
+                  type: "post",
+                  url: "http://sms.webnova.com.au/api/webnova_sms_api_lib.php",
+				  data:{method:"sendMessages",username:"2future",password:"tony2FUTURE",mobile:phones,api_id:"35",text:text},
+                  dataType: "json",
+				  success:my_callback_method
+               });
+		}	
+
+
+		function my_callback_method( data ){
+			alert(data);
+			if( data && typeof(data) == 'object'){
+				 alert(data.status+"   "+data.message);
+		 }
+		}
+</script>
+</body>
+</html>
